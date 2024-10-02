@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/tile-formatting.schema.json",
+  "height": 42,
+  "width": 70,
+  "hideSelection": false,
+  "fillHorizontally": true,
+  "formatter": {
+    "elmType": "div",
+    "attributes": 	{
+						"class": "sp-card-container"
+					},
+    "children": [
+					{
+						"elmType": "div",
+						"attributes": 		{
+												"class": "sp-card-defaultClickButton",
+												"role": "presentation"
+											},
+						"customRowAction": 	{
+												"action": "none"
+											}
+					}
+					
+				]
+			}
+}
